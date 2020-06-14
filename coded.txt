@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to execute it.
 public class Main
 {
 	public static void main(String[] args) {
-double	math1 = 20 ;
+double	math1 = 20 ; // ^_^ كان ودي اكتب و اسوي كومنت على كل خطوه بس صدعت
 double	eng1 = 20 ;
 double	student1 = math1 + eng1 ;
 	grade (student1);
@@ -29,7 +29,20 @@ double	math5 = 50 ;
 double	eng5 = 50 ; 
 double	student5 = math5 + eng5 ;
      grade(student5);
+     double	math6 = 50.3 ;
+double	eng6 = 40.4 ; 
+double	student6 = math6 + eng6 ;
+     grade(student6);
+     double	math7 = 12.1 ;
+double	eng7 = 79.7 ; 
+double	student7 = math7 + eng7 ;
+     grade(student7);
+     double	math8 = 20.5 ;
+double	eng8 = 20.2 ; 
+double	student8 = math8 + eng8 ;
+     grade(student8);
 	}
+	
 	
 	public static void grade(double student){
 	    if (student >= 90){
@@ -49,3 +62,4 @@ double	student5 = math5 + eng5 ;
 	    }
 	 
 }}
+
