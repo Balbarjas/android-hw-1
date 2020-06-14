@@ -1,0 +1,51 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+double	math1 = 20 ;
+double	eng1 = 20 ;
+double	student1 = math1 + eng1 ;
+	grade (student1);
+double	math2 = 10;
+double	eng2 = 50;
+double	student2 = math2 + eng2 ; 
+	grade (student2);
+double	math3 = 50 ;
+double	eng3 = 20 ;
+double	student3 = math3 + eng3 ; 
+	grade (student3);
+double	math4 = 30 ;
+double	eng4 = 50 ;
+double	student4 = math4 + eng4 ;
+	grade (student4);
+double	math5 = 50 ;
+double	eng5 = 50 ; 
+double	student5 = math5 + eng5 ;
+     grade(student5);
+	}
+	
+	public static void grade(double student){
+	    if (student >= 90){
+	    System.out.println(" A "+student );
+	    }
+	    else if (student >= 80 ){
+	        System.out.println(" B "+student );
+	    }
+	    else if (student >= 70 ){
+	        System.out.println(" C " + student );
+	    }
+	    else if (student >= 60 ){
+	        System.out.println(" d " + student );
+	    }
+	    else{
+	        System.out.println(" F " + student );
+	    }
+	 
+}}
